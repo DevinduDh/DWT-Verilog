@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rpUnit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rpUnit_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="190000001fs"></ZoomEndTime>
+      <Cursor1Time time="123500000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/rpUnit_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/X1" type="array">
+      <obj_property name="ElementShortName">X1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/X2" type="array">
+      <obj_property name="ElementShortName">X2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/X3" type="array">
+      <obj_property name="ElementShortName">X3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/X4" type="array">
+      <obj_property name="ElementShortName">X4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/Y1" type="array">
+      <obj_property name="ElementShortName">Y1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Y1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/Y2" type="array">
+      <obj_property name="ElementShortName">Y2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Y2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/Y3" type="array">
+      <obj_property name="ElementShortName">Y3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Y3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/Y4" type="array">
+      <obj_property name="ElementShortName">Y4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Y4[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/FL1" type="logic">
+      <obj_property name="ElementShortName">FL1</obj_property>
+      <obj_property name="ObjectShortName">FL1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/FL2" type="logic">
+      <obj_property name="ElementShortName">FL2</obj_property>
+      <obj_property name="ObjectShortName">FL2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/R1" type="logic">
+      <obj_property name="ElementShortName">R1</obj_property>
+      <obj_property name="ObjectShortName">R1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rpUnit_tb/R2" type="logic">
+      <obj_property name="ElementShortName">R2</obj_property>
+      <obj_property name="ObjectShortName">R2</obj_property>
+   </wvobject>
+</wave_config>

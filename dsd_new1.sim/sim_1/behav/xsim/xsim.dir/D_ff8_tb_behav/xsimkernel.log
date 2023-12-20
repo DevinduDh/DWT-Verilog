@@ -1,0 +1,7 @@
+Running: xsim.dir/D_ff8_tb_behav/xsimk.exe -simmode gui -wdb D_ff8_tb_behav.wdb -simrunnum 0 -socket 60181
+Design successfully loaded
+Design Loading Memory Usage: 7120 KB (Peak: 7120 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7800 KB (Peak: 7800 KB)
+Simulation CPU Usage: 15 ms

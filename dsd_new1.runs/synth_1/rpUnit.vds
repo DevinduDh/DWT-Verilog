@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 30 11:38:31 2023
+# Process ID: 9732
+# Current directory: C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.runs/synth_1
+# Command line: vivado.exe -log rpUnit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rpUnit.tcl
+# Log file: C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.runs/synth_1/rpUnit.vds
+# Journal file: C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rpUnit.tcl -notrace
+Command: synth_design -top rpUnit -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12564 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 356.004 ; gain = 98.777
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rpUnit' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/rpUnit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'D_ff8' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/D_ff8.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'D_ff8' (1#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/D_ff8.v:2]
+INFO: [Synth 8-6157] synthesizing module 'predictUnit' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/predictUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'regAdderP' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderP.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regAdderP' (2#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderP.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regSubP' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regSubP.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regSubP' (3#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regSubP.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'predictUnit' (4#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/predictUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'D_ff9' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/D_ff9.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'D_ff9' (5#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/D_ff9.v:2]
+INFO: [Synth 8-6157] synthesizing module 'updateUnit' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/updateUnit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regAdderU1' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderU1.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regAdderU1' (6#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderU1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regAdderU2' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderU2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regAdderU2' (7#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderU2.v:2]
+WARNING: [Synth 8-689] width (10) of port connection 'A' does not match port width (9) of module 'regAdderU2' [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/updateUnit.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'updateUnit' (8#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/updateUnit.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'rpUnit' (9#1) [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/rpUnit.v:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 411.551 ; gain = 154.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 411.551 ; gain = 154.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 411.551 ; gain = 154.324
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regSubP.v:10]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.srcs/sources_1/new/regAdderU2.v:16]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 411.551 ; gain = 154.324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     11 Bit       Adders := 2     
+	   3 Input     10 Bit       Adders := 4     
+	   2 Input     10 Bit       Adders := 4     
+	   2 Input      9 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 8     
+	   2 Input      9 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module D_ff8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module regAdderP 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+Module regSubP 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 2     
+Module D_ff9 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
+Module regAdderU1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     10 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module regAdderU2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    50|
+|3     |LUT1   |     6|
+|4     |LUT2   |   122|
+|5     |LUT3   |    32|
+|6     |LUT4   |    52|
+|7     |LUT5   |    18|
+|8     |LUT6   |    16|
+|9     |FDCE   |    41|
+|10    |IBUF   |    34|
+|11    |OBUF   |    42|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+--------------+------+
+|      |Instance        |Module        |Cells |
++------+----------------+--------------+------+
+|1     |top             |              |   414|
+|2     |  F1            |D_ff8         |    16|
+|3     |  F2            |D_ff9         |    36|
+|4     |  F3            |D_ff8_0       |    16|
+|5     |  F4            |D_ff8_1       |    11|
+|6     |  F5            |D_ff8_2       |    84|
+|7     |  U1            |updateUnit    |    29|
+|8     |    adder2_inst |regAdderU2_7  |    12|
+|9     |    adderU_inst |regAdderU1_8  |    17|
+|10    |  U2            |updateUnit_3  |    48|
+|11    |    adder2_inst |regAdderU2    |    21|
+|12    |    adderU_inst |regAdderU1    |    27|
+|13    |  p1            |predictUnit   |    83|
+|14    |    uut_adder   |regAdderP_5   |    11|
+|15    |    uut_sub     |regSubP_6     |    72|
+|16    |  p2            |predictUnit_4 |    11|
+|17    |    uut_adder   |regAdderP     |     8|
+|18    |    uut_sub     |regSubP       |     3|
++------+----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 552.145 ; gain = 294.918
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 84 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 652.156 ; gain = 407.762
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/3ddev/Documents/1st sem-Mtech/Digital System Design/Project/dsd_new1/dsd_new1.runs/synth_1/rpUnit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rpUnit_utilization_synth.rpt -pb rpUnit_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 652.156 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 30 11:38:58 2023...
