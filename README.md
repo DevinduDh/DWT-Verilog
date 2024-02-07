@@ -1,3 +1,5 @@
+#Implementing Lifting scheme for DWT
+
 Lifting scheme is an efficient implementation method of the wavelet transform algorithm, and results in lossless data compression.
 It consists of three basic steps:Split, Predict, and Update.
 
